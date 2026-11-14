@@ -1,0 +1,22 @@
+{
+    "variant": "sage",
+    "feature_encoder": "dinov3",
+    "iterative_module": "vits",
+    "algorithm": "waft-a2",
+    "iters": 5,
+    "var_min": 0,
+    "var_max": 10,
+    "lam": 1.0,
+    "lam_warmup": 0,
+    "softselect_k": 5,
+    "softselect_kernel": "gaussian",
+    "anisotropic": true,
+    "use_content": false,
+    "learn_mu": false,
+    "init_seed": null,
+    "aniso_reg": 0.0,
+    "dataset": "sintel",
+    "data_root": "datasets",
+    "scale": 0.0,
+    "valid_mode": "auto"
+}
