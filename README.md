@@ -18,7 +18,7 @@ pip install -r requirements.txt
 External projects are included as git submodules. Clone with submodules:
 
 ```bash
-git clone --recursive <repo-url> SAGE
+git clone https://github.com/LipingZhang17/SAGE.git --recursive
 cd SAGE
 ```
 
